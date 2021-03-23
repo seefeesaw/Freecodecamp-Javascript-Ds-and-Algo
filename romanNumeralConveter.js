@@ -13,7 +13,7 @@ function getTarget(num) {
     500: "D",
     900: "CM",
     1000: "M",
-    2000: "M"
+    2000: "MM"
   }
   for (let key in obj){
     
@@ -42,7 +42,7 @@ function convertToRoman(num) {
     500: "D",
     900: "CM",
     1000: "M",
-    10000: "S"
+    2000: "MM"
   }
   let str = "";
   let i = 0;
